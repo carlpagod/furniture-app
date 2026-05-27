@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FurniCute",
+    "slug": "furnicute",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "furnicute",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.furnicute.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.furnicute.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker",
+      "expo-font"
+    ]
+  }
+}
